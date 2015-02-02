@@ -1,0 +1,144 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+div{
+	border: solid 1px red;
+	border-radius: 2px;
+}
+header{
+	background-color: purple;
+	height: 30%;
+	position: relative;
+}
+.left{
+	background-color: orange;
+	float: left;
+	height: 80%;
+	width: 15%;
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 481px;
+}
+.right{
+	background-color: #cccccc;
+	float: right;
+	width: 85%;
+	padding-left: 14px;
+	padding-bottom: 25px;
+}
+footer{
+	background-color: yellow;
+	height: 30px;
+	clear: both;
+}
+
+footer h4{
+	text-align: center;
+}
+.menu{
+	display: block;
+	border-radius: 20%;
+	border: solid 1px black;
+	background-color: yellow;
+	cursor: pointer; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-right: -20px;
+
+}
+.menu:hover{
+	background-color: rgb(226, 27, 27);
+	font-family: Verdana;
+	font-size: 25px;
+	cursor: pointer;
+	padding: 20px;
+	padding-left: 30px;	
+}
+.menu-header{
+	display: inline-block;
+	border-radius: 20%;
+	border: solid 2px black;
+	background-color: #fc3dff;
+	cursor: pointer; 
+	margin-right: 5px;
+	padding: 10px;
+}
+#boton{
+	position: absolute;
+	bottom: 0;
+	margin-left: 35%;
+}
+.menu-header:hover{ 
+	background-color: blue;
+	font-family: Verdana;
+	font-size: 20px;
+
+}	
+.img-art{
+	display: block;
+	padding: -10px;
+	border-radius: 50%; 
+	height: 150px;
+	width: 150px;
+	margin: auto;
+}
+.logo{
+	display: inline-block;
+	width: 220px;
+}
+.logo img{
+	display: block;
+	width: 100%;
+	border: solid 1px black;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+.icons{
+position: absolute;
+	text-decoration: underline;
+	padding: 10px;
+	top:2px;
+	right: 5px;
+}
+.icons a{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+}
+.icons li{
+	display: inline-block;
+	padding-right: 10px;
+}
+.icons span{
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2{
+	text-align: center;
+	text-decoration: underline;
+}
+h1{
+	color: rgb(7, 94, 28);
+}
+article{
+	margin-top:5px;
+	padding: 20px;
+	padding-top: 10px; 
+	border: solid 2px green;
+	background-color: #ffffff;
+}
+article:hover{
+	background: black;
+	color: #ffffff;
+}
+ul li{
+	list-style: none;
+	text-align: center;
+}
