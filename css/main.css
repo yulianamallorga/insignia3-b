@@ -8,19 +8,21 @@
 }
 
 div{
-	border: solid 1px red;
 	border-radius: 2px;
+}
+
+.w-820 {
+	width: 820px !important;
 }
 header{
 	background-color: purple;
-	height: 30%;
+
 	position: relative;
 }
 .left{
 	background-color: orange;
-	float: left;
-	height: 80%;
-	width: 15%;
+	float: left; 
+	height: 666px;
 	padding-top: 50px;
 	padding-left: 30px;
 	padding-right: 20px;
@@ -29,7 +31,6 @@ header{
 .right{
 	background-color: #cccccc;
 	float: right;
-	width: 85%;
 	padding-left: 14px;
 	padding-bottom: 25px;
 }
@@ -57,24 +58,24 @@ footer h4{
 .menu:hover{
 	background-color: rgb(226, 27, 27);
 	font-family: Verdana;
-	font-size: 25px;
+	font-size: 20px;
 	cursor: pointer;
-	padding: 20px;
-	padding-left: 30px;	
+	padding: 5px;
+		
 }
 .menu-header{
 	display: inline-block;
 	border-radius: 20%;
-	border: solid 2px black;
+	border: solid 1px black;
 	background-color: #fc3dff;
 	cursor: pointer; 
-	margin-right: 5px;
-	padding: 10px;
+	margin-right: 2px;
+	padding: 8px;
+
 }
 #boton{
 	position: absolute;
-	bottom: 0;
-	margin-left: 35%;
+	top: 22px;
 }
 .menu-header:hover{ 
 	background-color: blue;
@@ -87,12 +88,12 @@ footer h4{
 	padding: -10px;
 	border-radius: 50%; 
 	height: 150px;
-	width: 150px;
+
 	margin: auto;
 }
 .logo{
 	display: inline-block;
-	width: 220px;
+	
 }
 .logo img{
 	display: block;
@@ -102,11 +103,12 @@ footer h4{
 	background-color: #ffffff;
 }
 .icons{
-position: absolute;
+  	position: absolute;
 	text-decoration: underline;
 	padding: 10px;
-	top:2px;
 	right: 5px;
+	top: 22px;
+
 }
 .icons a{
 	color: #ffffff;
@@ -129,10 +131,12 @@ h1{
 }
 article{
 	margin-top:5px;
+	margin-bottom: 5px;
 	padding: 20px;
 	padding-top: 10px; 
 	border: solid 2px green;
 	background-color: #ffffff;
+	
 }
 article:hover{
 	background: black;
